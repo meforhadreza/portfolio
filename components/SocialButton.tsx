@@ -1,5 +1,5 @@
 import { JSX } from 'react';
-import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa6';
+import { FaFacebook, FaGithub, FaLinkedin, FaXTwitter } from 'react-icons/fa6';
 
 import Link from 'next/link';
 
@@ -13,12 +13,12 @@ const social: Social = [
    {
       name: 'GitHub',
       icon: <FaGithub size={16} className="text-base-content" />,
-      link: 'https://github.com/forhadreza43',
+      link: 'https://github.com/meforhadreza',
    },
    {
       name: 'LinkedIn',
       icon: <FaLinkedin size={16} className="text-base-content" />,
-      link: 'https://www.linkedin.com/in/rezaforhad',
+      link: 'https://www.linkedin.com/in/meforhadreza',
    },
    // {
    //    name: 'Email',
@@ -28,13 +28,13 @@ const social: Social = [
    {
       name: 'Facebook',
       icon: <FaFacebook size={16} className="text-base-content" />,
-      link: 'https://www.facebook.com/forhadreza000',
+      link: 'https://www.facebook.com/meforhadreza',
    },
-   // {
-   //    name: 'X',
-   //    icon: <FaXTwitter size={16} className="text-base-content" />,
-   //    link: 'https://twitter.com/forhadreza111',
-   // },
+   {
+      name: 'X',
+      icon: <FaXTwitter size={16} className="text-base-content" />,
+      link: 'https://twitter.com/meforhadreza',
+   },
 ];
 
 export default function SocialButton() {

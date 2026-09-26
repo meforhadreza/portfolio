@@ -109,7 +109,7 @@ export const projects = [
          { icon: SiGooglegemini, name: 'Google Gemini API', color: '#4285F4' },
       ],
       liveLink: 'https://appli-tract.vercel.app',
-      repoLink: 'https://github.com/forhadreza43/ai-job-tracker',
+      repoLink: 'https://github.com/meforhadreza/ai-job-tracker',
       note: '',
       recentTag: 'Most Recent',
    },
@@ -142,7 +142,7 @@ export const projects = [
          { icon: SiExpress, name: 'Express.js', color: '#339933' },
       ],
       liveLink: 'https://quran-web-app-client-olive.vercel.app',
-      repoLink: 'https://github.com/forhadreza43/quran-web-app',
+      repoLink: 'https://github.com/meforhadreza/quran-web-app',
       note: '',
       recentTag: 'Recent',
    },
@@ -181,7 +181,7 @@ export const projects = [
          { icon: SiPrisma, name: 'Prisma', color: '#5A67D8' },
       ],
       liveLink: 'https://alumni-network-six.vercel.app',
-      repoLink: 'https://github.com/forhadreza43/alumni-network',
+      repoLink: 'https://github.com/meforhadreza/alumni-network',
       note: '',
    },
    {
@@ -210,7 +210,7 @@ export const projects = [
          { icon: BiLogoStripe, name: 'Stripe', color: '#6772E5' },
       ],
       liveLink: 'https://godesh.vercel.app',
-      repoLink: 'https://github.com/forhadreza43/godesh-client',
+      repoLink: 'https://github.com/meforhadreza/godesh-client',
       note: '',
    },
 
@@ -243,7 +243,7 @@ export const projects = [
          { icon: SiShadcnui, name: 'ShadcnUI', color: '#FFFFFF' },
       ],
       liveLink: 'https://glowsera-client.vercel.app',
-      repoLink: 'https://github.com/forhadreza43/glowsera-client',
+      repoLink: 'https://github.com/meforhadreza/glowsera-client',
       note: '',
    },
    {
@@ -269,7 +269,7 @@ export const projects = [
          { icon: BiLogoTailwindCss, name: 'Tailwind CSS', color: '#06B6D4' },
       ],
       liveLink: 'https://stay-swift-two.vercel.app/',
-      repoLink: 'https://github.com/forhadreza43/stay-swift',
+      repoLink: 'https://github.com/meforhadreza/stay-swift',
       note: '',
    },
    {
@@ -293,7 +293,7 @@ export const projects = [
          { icon: SiReactquery, name: 'Tanstack Query', color: '#E10098' },
       ],
       liveLink: 'https://eco-vista-azure.vercel.app/',
-      repoLink: 'https://github.com/forhadreza43/eco-vista',
+      repoLink: 'https://github.com/meforhadreza/eco-vista',
       note: 'Need Location Access',
    },
    {
@@ -318,7 +318,7 @@ export const projects = [
          { icon: BiLogoTailwindCss, name: 'Tailwind CSS', color: '#06B6D4' },
       ],
       liveLink: 'https://recipe-book-next-mu.vercel.app/',
-      repoLink: 'https://github.com/forhadreza43/recipe-book-next',
+      repoLink: 'https://github.com/meforhadreza/recipe-book-next',
       note: '',
    },
 ];
