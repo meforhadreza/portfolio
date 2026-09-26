@@ -1,5 +1,5 @@
 import { JSX } from 'react';
-import { FaFacebook, FaGithub, FaLinkedin, FaXTwitter } from 'react-icons/fa6';
+import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa6';
 
 import Link from 'next/link';
 
@@ -30,11 +30,11 @@ const social: Social = [
       icon: <FaFacebook size={16} className="text-base-content" />,
       link: 'https://www.facebook.com/meforhadreza',
    },
-   {
-      name: 'X',
-      icon: <FaXTwitter size={16} className="text-base-content" />,
-      link: 'https://twitter.com/meforhadreza',
-   },
+   // {
+   //    name: 'X',
+   //    icon: <FaXTwitter size={16} className="text-base-content" />,
+   //    link: 'https://twitter.com/meforhadreza',
+   // },
 ];
 
 export default function SocialButton() {
