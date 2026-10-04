@@ -1,5 +1,5 @@
 'use client';
-import person1 from '@/assets/1.5.png';
+import person1 from '@/assets/3.2.png';
 import { motion } from 'motion/react';
 import Image from 'next/image';
 import Link from 'next/link';

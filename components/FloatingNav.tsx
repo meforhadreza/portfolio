@@ -109,8 +109,6 @@ export const FloatingNav = ({
                               animate={{ opacity: 1, x: 0 }}
                               transition={{ duration: 0.5 }}
                            >
-                              {/* Forhad Reza */}
-                              {/* <Logo /> */}
                               <Profile name="Forhad Reza" />
                            </motion.span>
                         </Link>

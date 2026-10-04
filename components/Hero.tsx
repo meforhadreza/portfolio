@@ -1,15 +1,14 @@
 'use client';
-import hero from '@/assets/2.5.png';
+import heroFormal from '@/assets/hero_formal.png';
 import { cn } from '@/lib/utils';
 import { motion } from 'motion/react';
-import Image from 'next/image';
 import Link from 'next/link';
 import { GridPattern } from './magicui/grid-pattern';
 import ResumeDownload from './ResumeDownload';
 import SectionTitle from './SectionTitle';
 import SocialButton from './SocialButton';
 import { Button } from './ui/button';
-
+import WavyAvatar from './WavyAvatar';
 const Hero = () => {
    return (
       <div id="home" className="relative overflow-hidden w-full min-h-[70vh]">
@@ -124,19 +123,14 @@ const Hero = () => {
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.8, delay: 0.3 }}
                >
-                  {/* <Lottie
-              animationData={coding}
-              className="w-[250px] sm:w-[320px] md:w-[420px] lg:w-[500px] h-auto "
-            /> */}
 
-                  <Image
-                     src={hero}
-                     alt="Coding animation"
-                     className="rounded-full w-112.5 h-auto relative z-0"
-                     width={713}
-                     height={713}
-                     priority
-                     placeholder="blur"
+                  <WavyAvatar
+                     src={heroFormal}
+                     strokeWidth={0}
+                     strokeColor={'#00a9ff'}
+                     duration={'30s'}
+                     rotate={true}
+                     // round={true}
                   />
                </motion.div>
             </div>

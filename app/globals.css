@@ -166,3 +166,19 @@
 .container {
    @apply w-full max-w-7xl scroll-mt-30 mt-20 md:mt-30 lg:mt-40 mx-auto;
 }
+
+/* Continuous 360-degree rotation */
+@keyframes rotateWavy {
+   from {
+      transform: rotate(0deg);
+   }
+   to {
+      transform: rotate(360deg);
+   }
+}
+
+.rotating-wavy {
+   /* SVG-er center (100, 100) point ke kendro kore ghurbe */
+   transform-origin: 100px 100px;
+   animation: rotateWavy 10s linear infinite;
+}
