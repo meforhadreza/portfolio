@@ -16,7 +16,7 @@ const wavyPath = (() => {
    const pointCount = 256;
    const points = Array.from({ length: pointCount }, (_, index) => {
       const angle = (index / pointCount) * Math.PI * 2 - Math.PI / 2;
-      const radius = 100 + 4 * Math.cos(11 * angle); // Adjust for better curve and smoothness
+      const radius = 100 + 3 * Math.cos(11 * angle); // Adjust for better curve and smoothness
 
       return {
          x: 100 + radius * Math.cos(angle),
