@@ -57,7 +57,7 @@ const WavyAvatar = ({
    const animationClassName = rotate ? 'rotating-wavy' : undefined;
 
    return (
-      <div style={{ width: size, height: size, position: 'relative' }}>
+      <div style={{ width: size, height: size, position: 'relative', marginTop: '15px' }}>
          <svg
             viewBox="0 0 200 200"
             width={size}
